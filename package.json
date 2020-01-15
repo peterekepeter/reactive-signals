@@ -1,0 +1,16 @@
+{
+  "name": "reactive-signals",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "JS Library for reactive and asynchronous programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
