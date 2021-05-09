@@ -1,4 +1,4 @@
-const { createChannel } = require('../lib/signal');
+import { createChannel } from '..';
 
 describe("Channel", () => {
 

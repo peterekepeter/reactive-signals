@@ -1,5 +1,4 @@
-const signal = require("../lib/signal");
-const createSignal = signal.create;
+import { createSignal } from '..';
 
 test("async listeners are awaited", async() => {
     let signal = createSignal(null, {

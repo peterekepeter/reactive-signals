@@ -1,4 +1,4 @@
-const { createSignal } = require('../lib/signal');
+import { createSignal } from '..';
 
 test("can be created", () =>{
     createSignal(true);

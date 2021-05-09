@@ -1,4 +1,4 @@
-const { createSignal } = require('..');
+import { createSignal } from '..';
 
 test("has 'value' property which is r/w", () => {
     const signal = createSignal();

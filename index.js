@@ -1,1 +1,1 @@
-module.exports = require('./lib/signal');
+export * from './lib/signal';
